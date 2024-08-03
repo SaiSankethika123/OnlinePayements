@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5; 
+}
+
+.payment-form {
+  max-width: 100%;
+  width: 100%;
+  max-width: 400px; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff; 
+  box-sizing: border-box; 
+}
+
+.payment-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form select,
+.payment-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.payment-form .amount {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 600px) {
+  .payment-form {
+    padding: 15px;
+  }
+
+  .payment-form select,
+  .payment-form button {
+    padding: 12px; 
+  }
+}
+
